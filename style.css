@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 700px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.top{
+    display: flex;
+    background-color: red;
+}
+
+.college{
+    color: white;
+    padding-top: 40px;
+    padding-left: 80px;
+    text-align: right;
+}
+
+.logoOut{
+    margin: 3px;
+}
+
+.logoIn{
+    width: 200px;
+    height: 110px;
+    background-color: white;
+    object-fit: cover;
+}
+
+
+
+.studentId{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.detail{
+    margin-top: 15px;
+    display: flex;
+}
+
+.image{
+    padding-left: 30px;
+}
+
+.photo{
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(3, 3, 3);
+    
+}
+
+.data{
+    margin-left: 50px;
+}
+
+.sign{
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.barcode{
+    font-size: 50px;
+    text-align: center;
+}
+
+.bottom{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+

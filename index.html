@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="top">
+            <div class="logoOut">
+                <img class="logoIn" src="galgotias.png" alt="">
+            </div>
+            <div class="college">
+                <p>1, Knowledge Park-II, Greater Noida- 201310</p>
+                <p>Contact No: 0120-4513800</p>
+            </div>
+            
+        </div>
+
+        <div class="studentId">
+            <p>STUDENT IDENTITY CARD</p>
+        </div>
+
+        <div class="detail">
+            <div class="image">
+                <img class="photo" src="nishant-image.jpg" alt="image">
+            </div>
+            <div class="data">
+                <h2>NISHANT KUSHWAHA</h2>
+                <p>B.Tech Computer Science and Engineering 2025-2029</p>
+                <p>Galgotias College of Engineering & Technology</p>
+                <h2>25GCEBCS202</h2>
+            </div>
+        </div>
+
+        <div class="sign">
+            <p>Registrar</p>
+        </div>
+
+        <div class="barcode">
+            <svg id="barcode"></svg>
+        </div>
+
+        <div class="bottom">
+            <p>College Contact No: 0120-4513800 </p>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+
+    <script>
+        JsBarcode("#barcode", "Nishant Kushwaha, 2500970100137", {
+            format: "CODE128",
+            width: 2,
+            height: 40,
+            displayValue: false,
+            margin: 2
+        });
+    </script>
+</body>
+
+</html>
+
